@@ -1,30 +1,41 @@
-# Hello website!
+# *Memory Game*
 
-This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-## What's in this project?
+Link to project: https://leather-cold-rocket.glitch.me
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
+The following **required** functionality is complete:
 
-← `index.html`: This is the main web page for your site. The HTML defines the structure and content of the page using _elements_. You'll see references in the HTML to the JS and CSS files. Try clicking the image in the center of the page!
+* [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [x] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [x] Game buttons each light up and play a sound when clicked. 
+* [x] Computer plays back sequence of clues including sound and visual cue for each button
+* [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [x] User wins the game after guessing a complete pattern
+* [x] User loses the game after an incorrect guess
 
-← `style.css`: CSS files add styling rules to your content. The CSS applies styles to the elements in your HTML page. The style rules also make the image move when you click it.
+The following **optional** features are implemented:
 
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript. The code in the JavaScript file runs when the page loads, and when the visitor clicks the button you can add below.
+* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [ ] More than 4 functional game buttons
+* [ ] Playback speeds up on each turn
+* [ ] Computer picks a different pattern each time the game is played
+* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [ ] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [ ] User has a limited amount of time to enter their guess on each turn
 
-Open each file and check out the comments (in gray) for more info.
 
-## Try this next 🏗️
+## Video Walkthrough (GIF)
 
-Take a look in `TODO.md` for next steps you can try out in your new site!
+If you recorded multiple GIFs for all the implemented features, you can add them here:
+![](gif1-link-here)
+![](gif2-link-here)
+![](gif3-link-here)
+![](gif4-link-here)
 
-___Want a minimal version of this project to build your own website? Check out [Blank Website](https://glitch.com/edit/#!/remix/glitch-blank-website)!___
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
-## You built this with Glitch!
 
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
 
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
